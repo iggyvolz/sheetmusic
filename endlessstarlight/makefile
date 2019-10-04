@@ -1,6 +1,9 @@
 all: endlessstarlight.midi endlessstarlight.pdf
-endlessstarlight.midi: endlessstarlight.ly
-	lilypond endlessstarlight.ly
+%.midi: %.ly
+	lilypond $<
 
-endlessstarlight.pdf: endlessstarlight.ly
-	lilypond endlessstarlight.ly
+%.pdf: %.ly
+	lilypond $<
+
+clean:
+	rm -f *.pdf *.midi
