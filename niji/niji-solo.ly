@@ -52,9 +52,9 @@ solo = \relative b {
     bes8 bes bes2.~ |
   }
   \alternative  {
-    bes1
-    bes1
-  }
+    { bes1 }
+    { bes1 }
+  } |
   R1*15 |
   r2 r4 r8 bes |
   \repeat unfold 4 { bes a } |

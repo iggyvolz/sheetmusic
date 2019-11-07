@@ -49,5 +49,63 @@ bass = \relative b, {
     r1
     r1
   }
+  \repeat unfold 4 { ees4 bes' } |
+  \repeat unfold 4 { bes, f' } |
+  \repeat unfold 4 { ees bes' } |
+  \repeat unfold 4 { bes, bes' } |
+  \repeat unfold 2 { ees,, ees' } |
+  \repeat unfold 2 { e, e' } |
+  \repeat unfold 2 { f, f' } |
+  \repeat unfold 2 { fis, fis' } |
+  \repeat unfold 2 { g, g' } |
+  \repeat unfold 2 { e, e' } |
+  \repeat unfold 4 { f, f' } |
+  g1 |
+  f |
+  f |
+  g |
+  g |
+  f |
+  f |
+  g |
+  f |
+  g |
+  d2 d |
+  g1 |
+  ees |
+  e |
+  f |
+  \repeat unfold 8 f8 |
+  \repeat unfold 8 fis8 |
+  \key b \major
+  e,4 b' e, b' |
+  fis cis' fis, cis' |
+  dis, ais' dis, ais' |
+  gis dis' gis, dis' |
+  e,4 b' e, b' |
+  fis cis' fis, cis' |
+  b fis' b, fis' |
+  b, fis' b, fis' |
+  e,4 b' e, b' |
+  fis cis' fis, cis' |
+  dis, ais' dis, ais' |
+  gis dis' gis, dis' |
+  e,4 b' e, b' |
+  fis cis' fis, cis' |
+  b fis' b, fis' |
+  b, fis' gis dis |
+  e,4 b' e, b' |
+  fis cis' fis, cis' |
+  r1 |
+  r |
+  e |
+  fis |
+  dis |
+  gis |
+  e |
+  fis |
+  dis |
+  fis~ |
+  fis |
   \bar "|."
 }

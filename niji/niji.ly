@@ -41,7 +41,35 @@
     \layout {
       \context { \Staff }
     }
+  }
 
+  \score {
+    \unfoldRepeats <<
+      \new Staff \with {
+        instrumentName = #"Lead"
+        shortInstrumentName = #"L"
+      }  \solo
+      \new Staff \with {
+        instrumentName = #"Soprano"
+        shortInstrumentName = #"S"
+      } \soprano
+      \new Staff \with {
+        instrumentName = #"Alto"
+        shortInstrumentName = #"A"
+      } \alto
+      \new Staff \with {
+        instrumentName = #"Tenor"
+        shortInstrumentName = #"T"
+      } \tenor
+      \new Staff \with {
+        instrumentName = #"Bass"
+        shortInstrumentName = #"B"
+      } \bass
+      \new Staff \with {
+        instrumentName = #"VP"
+        shortInstrumentName = #"VP"
+      } \vocalpercussion
+    >>
     \midi { }
   }
 }
@@ -59,7 +87,11 @@
     \layout {
       \context { \Staff }
     }
-
+  }
+  \score {
+    \unfoldRepeats <<
+      \new Voice = "Solo" \solo
+    >>
     \midi { }
   }
 }
@@ -77,7 +109,11 @@
     \layout {
       \context { \Staff }
     }
-
+  }
+  \score {
+    \unfoldRepeats <<
+      \new Voice = "Soprano" \soprano
+    >>
     \midi { }
   }
 }
@@ -95,7 +131,11 @@
     \layout {
       \context { \Staff }
     }
-% 
+  }
+  \score {
+    \unfoldRepeats <<
+      \new Voice = "alto" \alto
+    >>
     \midi { }
   }
 }
@@ -113,7 +153,11 @@
     \layout {
       \context { \Staff }
     }
-
+  }
+  \score {
+    \unfoldRepeats <<
+      \new Voice = "tenor" \tenor
+    >>
     \midi { }
   }
 }
@@ -131,7 +175,11 @@
     \layout {
       \context { \Staff }
     }
-
+  }
+  \score {
+    \unfoldRepeats <<
+      \new Voice = "bass" \bass
+    >>
     \midi { }
   }
 }
@@ -148,7 +196,11 @@
     \layout {
       \context { \Staff }
     }
-
+  }
+  \score {
+    \unfoldRepeats <<
+      \new Voice = "vocalpercussion" \vocalpercussion
+    >>
     \midi { }
   }
 }
