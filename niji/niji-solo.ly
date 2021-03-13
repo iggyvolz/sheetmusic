@@ -1,17 +1,17 @@
 \version "2.18.2"
-solo = \relative b {
+solo = << \relative b {
   \clef "treble_8"
   \key bes \major
   \time 4/4
   \tempo 4 = 130
   r4 r8 f'8~ f ees d ees |
   f c r c d c bes c |
-  d bes r f' f ees d ees |
+  d bes r f'~ f ees d ees |
   f c r c ees d c bes |
   a bes r bes~ bes c8 d ees |
   f4 g8 f~ f ees8~ ees d~ |
-  d c~ c ees~ ees d~ d c |
-  bes bes bes2.~ |
+  d c~ c ees~ ees d~ d c( |
+  bes) bes bes2.~ |
   bes1 |
   \repeat volta 2 {
     R1*7 |
@@ -28,28 +28,28 @@ solo = \relative b {
     c d c bes r4 g8 bes |
     c4 c8 c~ c d ees d |
     c bes r bes c bes r bes |
-    ees4 d8 c bes bes~ bes a~ |
-    a bes~ bes c~ c d~ d d |
+    ees4 d8 c~ c bes~ bes a~ |
+    a bes~ bes c~ c d~ d ees~ |
     ees4 r8 f8~ f ees d ees |
     f c r c d c bes c |
-    d bes r f' f ees d ees |
+    d bes r f'~ f ees d ees |
     f c r c ees d c bes |
-    a bes r bes~ bes c8 d ees |
-    d4 c8 bes c bes8~ bes a~ |
+    a bes r bes bes c8 d ees |
+    d4 c8 c~ c bes~ bes a~ |
     a f~ f f'~ f c~ c c~ |
     c d d2.~ |
     d4 r8 f8~ f ees d ees |
     f c r c d c bes c |
     d bes r f' f ees d ees |
     f c r c ees d c bes |
-    a bes r bes~ bes c8 d ees |
+    a bes r bes bes c8 d ees |
     f4 g8 f~ f ees8~ ees d~ |
     d c~ c ees~ ees d c bes~ |
     bes1~ |
     bes4 r8 bes~ bes c d ees |
     f4 g8 f~ f ees~ ees d~ |
-    d c~ c ees~ ees d~ d c |
-    bes8 bes bes2.~ |
+    d c~ c ees~ ees d~ d c( |
+    bes8) bes bes2.~ |
   }
   \alternative  {
     { bes1 }
@@ -100,3 +100,62 @@ solo = \relative b {
   R1*7 |
   \bar "|."
 }
+\addlyrics {
+
+  Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
+  Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
+  Ya -- tto o -- na -- ji so -- ra no shi_ta de wa -- ra -- e -- ru ne
+
+  << 
+  {
+    Ku -- tsu hi -- mo wo mu -- su -- bi na -- o -- su to -- ki ka -- ze ga bo -- ku -- ra no se -- na -- ka wo o -- su
+    So -- ra ga ko -- bo -- shi -- ta hi -- ka -- ri no mu -- ko -- u ni a -- no yu -- me no tsu -- dzu -- ki wo e -- ga -- ko -- u
+    Hi -- da -- ri mu -- ne no o -- ku ga ta -- ka -- na -- ru ki -- ta -- i to fu -- a -- n ga mya -- ku wo u_tsu
+    Ho -- nto -- u ni Dai -- jo -- u -- bu ka -- na su -- be -- te no -- ri ko -- e -- te yu -- ke -- ru ka -- na
+
+    Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
+    Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
+    Na -- mi -- da wo na -- ga -- shi ki -- ru to so -- ra ni ka -- ka -- ru
+    Ne_e mi -- e -- ru de -- sho ha -- ru -- ka ka -- na -- ta ni
+    Bo -- ku ni -- mo mi -- e -- ru ki -- mi to o -- na -- ji no
+    Fu -- ta -- tsu no so -- ra ga i -- ma hi -- to -- tsu ni na -- ru
+    Ya -- tto o -- na -- ji so -- ra no shi_ta de wa -- ra -- e -- ru ne
+  }
+  \new Lyrics {
+    Be -- tsu -- be -- tsu no so -- ra wo mo -- tte u -- ma -- re -- ta ki -- o -- ku wo u -- tsu -- shi da -- su so -- ra
+    Ki -- mi ni -- wa ki -- mi no mo -- no -- ga -- ta -- ri ga a -- ri bo -- ku no shi -- ra -- na -- i na -- mi -- da ga a -- ru
+    Mo -- shi -- ka shi -- ta -- ra bo -- ku ga wa -- ra -- u ko -- ro ni ki -- mi wa na -- i -- te -- ta no ka -- mo shi -- re -- na -- i
+    Ni -- ta yo -- u na yo -- ro -- ko -- bi wa a -- ru ke -- re -- do o -- na -- ji ka -- na -- shi -- mi wa ki -- tto na -- i
+
+    Ya -- ku -- so -- ku de mi -- ra -- i wo fu -- chi -- do -- ri ko -- to -- ba de ka -- za -- ri tsu -- ke wo su -- ru
+    Ki -- mi wa ta -- shi -- ka na a -- su wo ki -- tto da -- re yo -- ri ho -- shi -- ga -- tte -- ta
+
+    Me -- gu -- ru ki -- se -- tsu no hi -- to -- tsu no yo -- u ni
+    Ka -- na -- shi -- i to -- ki wa ka -- na -- shi -- i ma -- ma ni
+    Shi -- a -- wa -- se ni na -- ru ko -- to wo i -- so -- ga -- na -- i de
+    Dai -- jo -- u -- bu da -- yo ko -- ko ni i -- ru ka -- ra
+    Dai -- jo -- u -- bu da -- yo do -- ko ni -- mo i -- ka -- na -- i
+    Ma -- da ha -- shi -- ri da -- su to -- ki wa ki -- mi to i -- ssho
+  }
+  >>
+  % ne
+
+
+  % Na -- mi -- da no na -- i se -- ka -- i ni -- mo so -- no ha -- shi wa ka -- ka -- ri ma -- su ka ?
+  % Ka -- be ni ki -- za -- ma -- re -- ta ra -- ku -- ga -- ki wa da -- re -- ka no ji ni yo -- ku ni -- te -- ta
+  % Ka -- na -- shi -- mi wo to -- o -- za -- ke -- ru ko -- to de ki -- mi wa ha -- shi wo ka -- ke -- yo -- u to shi -- ta
+  % Ke -- re -- do i -- ma ka -- sa wo su -- te -- te me wo tsu -- bu -- ru
+
+  % Dai -- jo -- u -- bu
+
+  % Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
+  % Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
+  % Na -- mi -- da wo na -- ga -- shi o -- e -- ta ki -- mi no so -- ra ni
+  % Ne_e mi -- e -- ru de -- sho i -- ro a -- za -- ya -- ka ni
+  % Bo -- ku ni -- mo mi -- e -- ru ki -- mi to o -- na -- ji no
+  % Ki -- zu -- na to i -- u na no ni -- ji ga ka -- ka -- tta ne
+  % So -- shi -- te
+  % Fu -- ta -- tsu no so -- ra ga ya -- tto ya -- tto hi -- to -- tsu ni na -- tte
+  % Bo -- ku -- ra wo ha -- shi -- ra -- se -- ru -- n da
+}
+>>

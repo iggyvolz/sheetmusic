@@ -53,8 +53,8 @@ bass = \relative b, {
   \repeat unfold 4 { bes, f' } |
   \repeat unfold 4 { ees bes' } |
   \repeat unfold 4 { bes, bes' } |
-  \repeat unfold 2 { ees,, ees' } |
-  \repeat unfold 2 { e, e' } |
+  e,, ees'
+  \repeat unfold 3 { e, e' } |
   \repeat unfold 2 { f, f' } |
   \repeat unfold 2 { fis, fis' } |
   \repeat unfold 2 { g, g' } |

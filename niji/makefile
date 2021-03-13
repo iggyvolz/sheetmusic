@@ -1,13 +1,21 @@
-all: niji.midi niji.pdf
+all: niji.midi niji.pdf niji.mp3
 
-%.midi: niji.ly niji-alto.ly niji-bass.ly niji-solo.ly niji-soprano.ly niji-tenor.ly niji-vocalpercussion.ly
+%.ogg: %.midi
+	timidity $< -Ow -o $@
+
+%.mp3: %.ogg
+	ffmpeg -i $< $@
+
+%.midi: %.ly
 	lilypond $<
 
-%.pdf: niji.ly niji-alto.ly niji-bass.ly niji-solo.ly niji-soprano.ly niji-tenor.ly niji-vocalpercussion.ly
+niji.ly: niji-alto.ly niji-bass.ly niji-solo.ly niji-soprano.ly niji-tenor.ly niji-vocalpercussion.ly
+
+%.pdf: %.ly
 	lilypond $<
 
 clean:
-	rm -f *.pdf *.midi
+	rm -f *.pdf *.midi *.mp3 *.ogg
 
 play: niji-full.midi
 	timidity $<

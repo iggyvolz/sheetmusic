@@ -7,7 +7,7 @@
 \include "niji-vocalpercussion.ly"
 
 \book {
-  \bookOutputSuffix "full"
+  % \bookOutputSuffix "full"
   \header {
     title = "Niji"
   }

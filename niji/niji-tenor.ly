@@ -66,7 +66,7 @@ tenor = \relative b {
   \repeat unfold 4 { g' bes, ees bes } |
   f4 bes d f |
   bes2 f4 r8 ees~ |
-  ees4 ees8 bes~ bes ees4. |
+  ees4 e8 bes~ bes e4. |
   c4 g'8 e g2 |
   c,4. c8~ c a f4 |
   a a a8 a a a |
