@@ -13,7 +13,7 @@ bass = \relative b, {
   f4 a2. |
   bes,8 bes~ bes bes~ bes2 |
   bes1 |
-  \repeat volta 2 {
+  \repeat unfold 2 {
     ees |
     f |
     d2 fis |
@@ -43,10 +43,7 @@ bass = \relative b, {
     bes, f' g d |
     ees,4 bes' ees, bes' |
     f c' f, c' |
-    r1
-  }
-  \alternative {
-    r1
+    r1 | 
     r1
   }
   \repeat unfold 4 { ees4 bes' } |

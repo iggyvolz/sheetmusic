@@ -5,6 +5,6 @@ vocalpercussion = \relative b {
   \override Staff.Clef.layer = #-1
   \time 4/4
   \tempo 4 = 130
-  R1*117 |
+  R1*161 |
   \bar "|."
 }

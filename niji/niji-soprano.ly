@@ -13,7 +13,7 @@ soprano = \relative d'' {
   a4. g8~ g f~ f ees~ |
   ees d4.~ d2 |
   d2 r2 |
-  \repeat volta 2 {
+  \repeat unfold 2 {
     \repeat unfold 8 ees'8 |
     \repeat unfold 16 c |
     \repeat unfold 8 d |
@@ -54,10 +54,7 @@ soprano = \relative d'' {
     ees8 d~ d a~ a bes4. |
     a4. c8~ c a~ a bes |
     ees d~ d d~ d d4. |
-  }
-  \alternative {
-    { ees8 d~ d d r2 }
-    { ees8 d~ d d r2 }
+    ees8 d~ d d r2 |
   }
   bes1~ |
   bes |

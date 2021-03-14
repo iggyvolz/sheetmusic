@@ -13,48 +13,87 @@ solo = << \relative b {
   d c~ c ees~ ees d~ d c( |
   bes) bes bes2.~ |
   bes1 |
-  \repeat volta 2 {
-    R1*7 |
-    r2 r4 r8 bes |
-    \repeat unfold 6 { bes a } r a a a |
-    \repeat unfold 4 { a g } |
-    a bes r4 r8 bes bes bes |
-    \repeat unfold 6 { bes a } r a a a |
-    \repeat unfold 3 { a g } a bes |
-    c bes r bes c bes a bes |
-    c4 c8 c~ c d ees d |
-    c d4. r4 g,8 bes |
-    c4 c8 c~ c d ees d |
-    c d c bes r4 g8 bes |
-    c4 c8 c~ c d ees d |
-    c bes r bes c bes r bes |
-    ees4 d8 c~ c bes~ bes a~ |
-    a bes~ bes c~ c d~ d ees~ |
-    ees4 r8 f8~ f ees d ees |
-    f c r c d c bes c |
-    d bes r f'~ f ees d ees |
-    f c r c ees d c bes |
-    a bes r bes bes c8 d ees |
-    d4 c8 c~ c bes~ bes a~ |
-    a f~ f f'~ f c~ c c~ |
-    c d d2.~ |
-    d4 r8 f8~ f ees d ees |
-    f c r c d c bes c |
-    d bes r f' f ees d ees |
-    f c r c ees d c bes |
-    a bes r bes bes c8 d ees |
-    f4 g8 f~ f ees8~ ees d~ |
-    d c~ c ees~ ees d c bes~ |
-    bes1~ |
-    bes4 r8 bes~ bes c d ees |
-    f4 g8 f~ f ees~ ees d~ |
-    d c~ c ees~ ees d~ d c( |
-    bes8) bes bes2.~ |
-  }
-  \alternative  {
-    { bes1 }
-    { bes1 }
-  } |
+  R1*7 |
+  r2 r4 r8 bes |
+  \repeat unfold 6 { bes a } r a a a |
+  \repeat unfold 4 { a g } |
+  a bes r4 r8 bes bes bes |
+  \repeat unfold 6 { bes a } r a a a |
+  \repeat unfold 3 { a g } a bes |
+  c bes r bes c bes a bes |
+  c4 c8 c~ c d ees d |
+  c d4. r4 g,8 bes |
+  c4 c8 c~ c d ees d |
+  c d c bes r4 g8 bes |
+  c4 c8 c~ c d ees d |
+  c bes r bes c bes r bes |
+  ees4 d8 c~ c bes~ bes a~ |
+  a bes~ bes c~ c d~ d ees~ |
+  ees4 r8 f8~ f ees d ees |
+  f c r c d c bes c |
+  d bes r f'~ f ees d ees |
+  f c r c ees d c bes |
+  a bes r bes bes c8 d ees |
+  d4 c8 c~ c bes~ bes a~ |
+  a f~ f f'~ f c~ c c~ |
+  c d d2.~ |
+  d4 r8 f8~ f ees d ees |
+  f c r c d c bes c |
+  d bes r f' f ees d ees |
+  f c r c ees d c bes |
+  a bes r bes bes c8 d ees |
+  f4 g8 f~ f ees8~ ees d~ |
+  d c~ c ees~ ees d c bes~ |
+  bes1~ |
+  bes4 r8 bes~ bes c d ees |
+  f4 g8 f~ f ees~ ees d~ |
+  d c~ c ees~ ees d~ d c( |
+  bes8) bes bes2.~ |
+  bes1 |
+  
+  R1*7 |
+  r2 r8 bes~ bes bes~ |
+  \repeat unfold 6 { bes a } r r r a |
+  \repeat unfold 4 { a g } |
+  a bes r4 r8 bes bes a |
+  \repeat unfold 6 { bes a } r a a a |
+  \repeat unfold 3 { a g } a bes |
+  % 70
+  c bes r r bes~ bes4 c8~ |
+  c8 bes c bes c bes c bes |
+  c bes c bes r a a a |
+  \repeat unfold 4 { a g } |
+  a bes r r r bes bes c~ |
+  c bes bes bes c bes c bes |
+  c bes c bes r a a a |
+  \repeat unfold 3 { a g } a bes |
+  
+  c bes r bes c bes a bes |
+  c4 c8 c~ c d ees d |
+  c d4. r4 g,8 bes |
+  c4 c8 c~ c d ees d |
+  c d c bes r4 g8 bes |
+  c4 c8 c~ c d ees d |
+  c bes r bes c bes r bes |
+  ees4 d c  bes8 a~ |
+  a bes~ bes c~ c d~ d ees~ |
+  ees4 r8 f8 f ees d ees |
+  f c r c d c bes c |
+  d bes r f' f ees d ees |
+  f c r c ees d c bes |
+  a bes r bes bes c8 d ees |
+  d4 c8 c~ c bes~ bes a~ |
+  a f~ f f'~ f c~ c c~ |
+  c d d2.~ |
+  d4 r8 f8~ f ees d ees |
+  f c r c d c bes c |
+  d bes r f'~ f ees d ees |
+  f c r c ees d c bes |
+  a bes r bes bes c8 d ees |
+  f4 g8 f~ f ees8~ ees d~ |
+  d c~ c ees~ ees f,~ f f~ |
+  f g~ g4~ g2 |
+
   R1*15 |
   r2 r4 r8 bes |
   \repeat unfold 4 { bes a } |
@@ -106,39 +145,32 @@ solo = << \relative b {
   Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
   Ya -- tto o -- na -- ji so -- ra no shi_ta de wa -- ra -- e -- ru ne
 
-  << 
-  {
-    Ku -- tsu hi -- mo wo mu -- su -- bi na -- o -- su to -- ki ka -- ze ga bo -- ku -- ra no se -- na -- ka wo o -- su
-    So -- ra ga ko -- bo -- shi -- ta hi -- ka -- ri no mu -- ko -- u ni a -- no yu -- me no tsu -- dzu -- ki wo e -- ga -- ko -- u
-    Hi -- da -- ri mu -- ne no o -- ku ga ta -- ka -- na -- ru ki -- ta -- i to fu -- a -- n ga mya -- ku wo u_tsu
-    Ho -- nto -- u ni Dai -- jo -- u -- bu ka -- na su -- be -- te no -- ri ko -- e -- te yu -- ke -- ru ka -- na
+  Ku -- tsu hi -- mo wo mu -- su -- bi na -- o -- su to -- ki ka -- ze ga bo -- ku -- ra no se -- na -- ka wo o -- su
+  So -- ra ga ko -- bo -- shi -- ta hi -- ka -- ri no mu -- ko -- u ni a -- no yu -- me no tsu -- dzu -- ki wo e -- ga -- ko -- u
+  Hi -- da -- ri mu -- ne no o -- ku ga ta -- ka -- na -- ru ki -- ta -- i to fu -- a -- n ga mya -- ku wo u_tsu
+  Ho -- nto -- u ni Dai -- jo -- u -- bu ka -- na su -- be -- te no -- ri ko -- e -- te yu -- ke -- ru ka -- na
 
-    Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
-    Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
-    Na -- mi -- da wo na -- ga -- shi ki -- ru to so -- ra ni ka -- ka -- ru
-    Ne_e mi -- e -- ru de -- sho ha -- ru -- ka ka -- na -- ta ni
-    Bo -- ku ni -- mo mi -- e -- ru ki -- mi to o -- na -- ji no
-    Fu -- ta -- tsu no so -- ra ga i -- ma hi -- to -- tsu ni na -- ru
-    Ya -- tto o -- na -- ji so -- ra no shi_ta de wa -- ra -- e -- ru ne
-  }
-  \new Lyrics {
-    Be -- tsu -- be -- tsu no so -- ra wo mo -- tte u -- ma -- re -- ta ki -- o -- ku wo u -- tsu -- shi da -- su so -- ra
-    Ki -- mi ni -- wa ki -- mi no mo -- no -- ga -- ta -- ri ga a -- ri bo -- ku no shi -- ra -- na -- i na -- mi -- da ga a -- ru
-    Mo -- shi -- ka shi -- ta -- ra bo -- ku ga wa -- ra -- u ko -- ro ni ki -- mi wa na -- i -- te -- ta no ka -- mo shi -- re -- na -- i
-    Ni -- ta yo -- u na yo -- ro -- ko -- bi wa a -- ru ke -- re -- do o -- na -- ji ka -- na -- shi -- mi wa ki -- tto na -- i
+  Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
+  Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
+  Na -- mi -- da wo na -- ga -- shi ki -- ru to so -- ra ni ka -- ka -- ru
+  Ne_e mi -- e -- ru de -- sho ha -- ru -- ka ka -- na -- ta ni
+  Bo -- ku ni -- mo mi -- e -- ru ki -- mi to o -- na -- ji no
+  Fu -- ta -- tsu no so -- ra ga i -- ma hi -- to -- tsu ni na -- ru
+  Ya -- tto o -- na -- ji so -- ra no shi_ta de wa -- ra -- e -- ru ne
+  Be_tsu -- be_tsu no so -- ra wo mo -- o -- tte u -- ma -- re -- ta ki -- o -- ku wo u -- tsu -- shi da -- su so -- ra
+  Ki -- mi ni -- wa ki -- mi no mo -- no -- ga -- ta -- ri ga a -- ri bo -- ku no shi -- ra -- na -- i na -- mi -- da ga a -- ru
+  Mo_shi -- ka shi_ta -- ra bo -- ku ga wa -- ra -- u ko -- ro ni ki -- mi wa na -- i -- te -- ta no ka -- mo shi -- re -- na_i
+  Ni -- ta yo_u na yo -- ro -- ko -- bi wa a -- ru ke -- re -- do o -- na -- ji ka -- na -- shi -- mi wa ki -- i -- tto na -- i
 
-    Ya -- ku -- so -- ku de mi -- ra -- i wo fu -- chi -- do -- ri ko -- to -- ba de ka -- za -- ri tsu -- ke wo su -- ru
-    Ki -- mi wa ta -- shi -- ka na a -- su wo ki -- tto da -- re yo -- ri ho -- shi -- ga -- tte -- ta
+  Ya -- ku -- so -- ku de mi -- ra -- i wo fu -- chi -- do -- ri ko -- to -- ba de ka -- za -- ri tsu -- ke wo su -- ru
+  Ki -- mi wa ta -- shi -- ka na a -- su wo ki -- i -- tto da -- re yo -- ri ho -- shi -- ga -- a -- tte -- ta
 
-    Me -- gu -- ru ki -- se -- tsu no hi -- to -- tsu no yo -- u ni
-    Ka -- na -- shi -- i to -- ki wa ka -- na -- shi -- i ma -- ma ni
-    Shi -- a -- wa -- se ni na -- ru ko -- to wo i -- so -- ga -- na -- i de
-    Dai -- jo -- u -- bu da -- yo ko -- ko ni i -- ru ka -- ra
-    Dai -- jo -- u -- bu da -- yo do -- ko ni -- mo i -- ka -- na -- i
-    Ma -- da ha -- shi -- ri da -- su to -- ki wa ki -- mi to i -- ssho
-  }
-  >>
-  % ne
+  Me -- gu -- ru ki -- se -- tsu no hi -- to -- tsu no yo -- u ni
+  Ka -- na -- shi -- i to -- ki wa ka -- na -- shi -- i ma -- ma ni
+  Shi -- a -- wa -- se ni na -- ru ko -- to wo i -- so -- ga -- na -- i de
+  Dai -- jo -- u -- bu da -- yo ko -- ko ni i -- ru ka -- ra
+  Dai -- jo -- u -- bu da -- yo do -- ko ni -- mo i -- ka -- na_i
+  Ma -- da ha -- shi -- ri da -- su to -- ki wa ki -- mi to i -- ssho
 
 
   % Na -- mi -- da no na -- i se -- ka -- i ni -- mo so -- no ha -- shi wa ka -- ka -- ri ma -- su ka ?

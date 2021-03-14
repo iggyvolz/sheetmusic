@@ -13,7 +13,7 @@ tenor = \relative b {
   c4. c8~ c c4. |
   d4. f8~ f bes,~ bes f'~ |
   f4 r r f,\glissando |
-  \repeat volta 2 {
+  \repeat unfold 2 {
     f'1~ |
     f2. g4 |
     f1~ |
@@ -56,10 +56,7 @@ tenor = \relative b {
     bes1 |
     a4 a8 g~ g f c ees |
     ees d4. f2 |
-  }
-  \alternative {
-   { ees8 d4. r8 f'8~ f f | }
-   { ees,8 d4. r8 f'8~ f f | }
+    ees8 d4. r8 f'8~ f f |
   }
   \repeat unfold 4 { g bes, ees bes } |
   \repeat unfold 4 { f' bes, d bes } |

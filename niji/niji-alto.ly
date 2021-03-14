@@ -14,7 +14,7 @@ alto = \relative b' {
   a4. f8~ f a4. |
   d,4. f8~ f bes~ bes bes |
   bes c~ c d~ d bes~ bes bes |
-  \repeat volta 2 {
+  \repeat unfold 2 {
     \repeat unfold 8 bes |
     \repeat unfold 16 a |
     \repeat unfold 16 bes |
@@ -55,10 +55,7 @@ alto = \relative b' {
     g8 g~ g f~ f g4. |
     f4. a8~ a f~ f f |
     c d8~ d a'~ a bes4. | 
-  }
-  \alternative {
-    { c,8 d~ d a' r bes~ bes bes }
-    { c,8 d~ d a' r bes~ bes bes }
+    c,8 d~ d a' r bes~ bes bes |
   }
   bes1~ |
   bes |
