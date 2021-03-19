@@ -74,133 +74,133 @@
   }
 }
 
-\book {
-  \bookOutputSuffix "solo"
-  \header {
-    title = "Niji"
-  }
-  \score {
-    <<
-      \new Voice = "Solo" \solo
-      % \new Lyrics \lyricsto solo \sololyrics
-    >>
-    \layout {
-      \context { \Staff }
-    }
-  }
-  \score {
-    \unfoldRepeats <<
-      \new Voice = "Solo" \solo
-    >>
-    \midi { }
-  }
-}
+% \book {
+%   \bookOutputSuffix "solo"
+%   \header {
+%     title = "Niji"
+%   }
+%   \score {
+%     <<
+%       \new Voice = "Solo" \solo
+%       % \new Lyrics \lyricsto solo \sololyrics
+%     >>
+%     \layout {
+%       \context { \Staff }
+%     }
+%   }
+%   \score {
+%     \unfoldRepeats <<
+%       \new Voice = "Solo" \solo
+%     >>
+%     \midi { }
+%   }
+% }
 
-\book {
-  \bookOutputSuffix "soprano"
-  \header {
-    title = "Niji"
-  }
-  \score {
-    <<
-      \new Voice = "Soprano" \soprano
-      % \new Lyrics \lyricsto soprano \sopranolyrics
-    >>
-    \layout {
-      \context { \Staff }
-    }
-  }
-  \score {
-    \unfoldRepeats <<
-      \new Voice = "Soprano" \soprano
-    >>
-    \midi { }
-  }
-}
+% \book {
+%   \bookOutputSuffix "soprano"
+%   \header {
+%     title = "Niji"
+%   }
+%   \score {
+%     <<
+%       \new Voice = "Soprano" \soprano
+%       % \new Lyrics \lyricsto soprano \sopranolyrics
+%     >>
+%     \layout {
+%       \context { \Staff }
+%     }
+%   }
+%   \score {
+%     \unfoldRepeats <<
+%       \new Voice = "Soprano" \soprano
+%     >>
+%     \midi { }
+%   }
+% }
 
-\book {
-  \bookOutputSuffix "alto"
-  \header {
-    title = "Niji"
-  }
-  \score {
-    <<
-      \new Voice = "alto" \alto
-      % \new Lyrics \lyricsto alto \altolyrics
-    >>
-    \layout {
-      \context { \Staff }
-    }
-  }
-  \score {
-    \unfoldRepeats <<
-      \new Voice = "alto" \alto
-    >>
-    \midi { }
-  }
-}
+% \book {
+%   \bookOutputSuffix "alto"
+%   \header {
+%     title = "Niji"
+%   }
+%   \score {
+%     <<
+%       \new Voice = "alto" \alto
+%       % \new Lyrics \lyricsto alto \altolyrics
+%     >>
+%     \layout {
+%       \context { \Staff }
+%     }
+%   }
+%   \score {
+%     \unfoldRepeats <<
+%       \new Voice = "alto" \alto
+%     >>
+%     \midi { }
+%   }
+% }
 
-\book {
-  \bookOutputSuffix "tenor"
-  \header {
-    title = "Niji"
-  }
-  \score {
-    <<
-      \new Voice = "tenor" \tenor
-      % \new Lyrics \lyricsto tenor \tenorlyrics
-    >>
-    \layout {
-      \context { \Staff }
-    }
-  }
-  \score {
-    \unfoldRepeats <<
-      \new Voice = "tenor" \tenor
-    >>
-    \midi { }
-  }
-}
+% \book {
+%   \bookOutputSuffix "tenor"
+%   \header {
+%     title = "Niji"
+%   }
+%   \score {
+%     <<
+%       \new Voice = "tenor" \tenor
+%       % \new Lyrics \lyricsto tenor \tenorlyrics
+%     >>
+%     \layout {
+%       \context { \Staff }
+%     }
+%   }
+%   \score {
+%     \unfoldRepeats <<
+%       \new Voice = "tenor" \tenor
+%     >>
+%     \midi { }
+%   }
+% }
 
-\book {
-  \bookOutputSuffix "bass"
-  \header {
-    title = "Niji"
-  }
-  \score {
-    <<
-      \new Voice = "bass" \bass
-      % \new Lyrics \lyricsto bass \basslyrics
-    >>
-    \layout {
-      \context { \Staff }
-    }
-  }
-  \score {
-    \unfoldRepeats <<
-      \new Voice = "bass" \bass
-    >>
-    \midi { }
-  }
-}
+% \book {
+%   \bookOutputSuffix "bass"
+%   \header {
+%     title = "Niji"
+%   }
+%   \score {
+%     <<
+%       \new Voice = "bass" \bass
+%       % \new Lyrics \lyricsto bass \basslyrics
+%     >>
+%     \layout {
+%       \context { \Staff }
+%     }
+%   }
+%   \score {
+%     \unfoldRepeats <<
+%       \new Voice = "bass" \bass
+%     >>
+%     \midi { }
+%   }
+% }
 
-\book {
-  \bookOutputSuffix "vocalpercussion"
-  \header {
-    title = "Niji"
-  }
-  \score {
-    <<
-      \new Voice = "vocalpercussion" \vocalpercussion
-    >>
-    \layout {
-      \context { \Staff }
-    }
-  }
-  \score {
-    \unfoldRepeats <<
-      \new Voice = "vocalpercussion" \vocalpercussion
-    >>
-    \midi { }
-  }
-}
+% \book {
+%   \bookOutputSuffix "vocalpercussion"
+%   \header {
+%     title = "Niji"
+%   }
+%   \score {
+%     <<
+%       \new Voice = "vocalpercussion" \vocalpercussion
+%     >>
+%     \layout {
+%       \context { \Staff }
+%     }
+%   }
+%   \score {
+%     \unfoldRepeats <<
+%       \new Voice = "vocalpercussion" \vocalpercussion
+%     >>
+%     \midi { }
+%   }
+% }

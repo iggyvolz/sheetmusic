@@ -94,7 +94,7 @@ solo = << \relative b {
   d c~ c ees~ ees f,~ f f~ |
   f g~ g4~ g2 |
 
-  R1*15 |
+  R1*16 |
   r2 r4 r8 bes |
   \repeat unfold 4 { bes a } |
   bes c4. r4 r8 a |
@@ -110,12 +110,12 @@ solo = << \relative b {
   c d ees d~ d4 r8 d |
   ees4 d8 c~ c bes r bes |
   e4 c8 bes~ bes c bes4 |
-  a bes8 c~ c d~ d d |
-  ees4 r8 f f ees d ees |
-  r4 r8 fis fis e dis e |
+  a bes8 c~ c d~ d ees~ |
+  ees4 r8 f~ f ees d ees |
+  r4 r8 fis~ fis e dis e |
   \key b \major
   fis cis r cis dis cis b cis |
-  dis b r fis' fis e dis e |
+  dis b r fis'~ fis e dis e |
   fis cis r cis e dis cis b |
   ais b r b b cis dis e |
   dis4 cis8 cis~ cis b~ b ais~ |
@@ -173,21 +173,21 @@ solo = << \relative b {
   Ma -- da ha -- shi -- ri da -- su to -- ki wa ki -- mi to i -- ssho
 
 
-  % Na -- mi -- da no na -- i se -- ka -- i ni -- mo so -- no ha -- shi wa ka -- ka -- ri ma -- su ka ?
-  % Ka -- be ni ki -- za -- ma -- re -- ta ra -- ku -- ga -- ki wa da -- re -- ka no ji ni yo -- ku ni -- te -- ta
-  % Ka -- na -- shi -- mi wo to -- o -- za -- ke -- ru ko -- to de ki -- mi wa ha -- shi wo ka -- ke -- yo -- u to shi -- ta
-  % Ke -- re -- do i -- ma ka -- sa wo su -- te -- te me wo tsu -- bu -- ru
+  Na -- mi -- da no na -- i se -- ka -- i ni -- mo so -- no ha -- shi wa ka -- ka -- ri ma -- su ka
+  Ka -- be ni ki -- za -- ma -- re -- ta ra -- ku -- ga -- ki wa da -- re -- ka no ji ni yo -- ku ni -- te -- ta
+  Ka -- na -- shi -- mi wo to -- o -- za -- ke -- ru ko -- to de ki -- mi wa ha -- shi wo ka -- ke -- yo -- u to shi -- ta
+  Ke -- re -- do i -- ma ka -- sa wo su -- te -- te me wo tsu -- bu -- ru
 
-  % Dai -- jo -- u -- bu
+  Dai -- jo -- u -- bu
 
-  % Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
-  % Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
-  % Na -- mi -- da wo na -- ga -- shi o -- e -- ta ki -- mi no so -- ra ni
-  % Ne_e mi -- e -- ru de -- sho i -- ro a -- za -- ya -- ka ni
-  % Bo -- ku ni -- mo mi -- e -- ru ki -- mi to o -- na -- ji no
-  % Ki -- zu -- na to i -- u na no ni -- ji ga ka -- ka -- tta ne
-  % So -- shi -- te
-  % Fu -- ta -- tsu no so -- ra ga ya -- tto ya -- tto hi -- to -- tsu ni na -- tte
-  % Bo -- ku -- ra wo ha -- shi -- ra -- se -- ru -- n da
+  Dai -- jo -- u -- bu da -- yo mi -- a -- ge -- re -- ba mo -- u
+  Dai -- jo -- u -- bu ho -- ra na -- na -- i -- ro no ha -- shi
+  Na -- mi -- da wo na -- ga -- shi o -- e -- ta ki -- mi no so -- ra ni
+  Ne_e mi -- e -- ru de -- sho i -- ro a -- za -- ya -- ka ni
+  Bo_ku ni -- mo mi -- e -- ru ki -- mi to o -- na -- ji no
+  Ki -- zu -- na to i -- u na no ni -- ji ga ka -- ka -- a -- tta ne
+  So_shi -- te
+  Fu -- ta -- tsu no so -- ra ga ya -- tto ya -- tto hi -- to -- tsu ni na -- tte
+  Bo_ku -- ra wo ha -- shi -- ra -- se -- ru_n da
 }
 >>

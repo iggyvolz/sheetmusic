@@ -13,39 +13,65 @@ bass = \relative b, {
   f4 a2. |
   bes,8 bes~ bes bes~ bes2 |
   bes1 |
-  \repeat unfold 2 {
-    ees |
-    f |
-    d2 fis |
-    g f |
-    ees1 |
-    f |
-    d2 fis |
-    g f |
-    g1 |
-    f f g g f f g f g a bes a |
-    R1*4 |
-    ees,4 bes' ees, bes' |
-    f c' f, c' |
-    d, a' d, a' |
-    g d' g, d' |
-    ees,4 bes' ees, bes' |
-    f c' f, c' |
-    bes f' bes, f' |
-    bes, f' bes, f' |
-    ees,4 bes' ees, bes' |
-    f c' f, c' |
-    d, a' d, a' |
-    g d' g, d' |
-    ees,4 bes' ees, bes' |
-    f c' f, c' |
-    bes f' bes, f' |
-    bes, f' g d |
-    ees,4 bes' ees, bes' |
-    f c' f, c' |
-    r1 | 
-    r1
-  }
+  ees |
+  f |
+  d2 fis |
+  g f |
+  ees1 |
+  f |
+  d2 fis |
+  g f |
+  g1 |
+  f f g g f f g f g a bes a |
+  R1*4 |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  d, a' d, a' |
+  g d' g, d' |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  bes f' bes, f' |
+  bes, f' bes, f' |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  d, a' d, a' |
+  g d' g, d' |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  bes f' bes, f' |
+  bes, f' g d |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  r1 | 
+  r1 |
+  ees |
+  f |
+  d2 fis |
+  g f |
+  ees1 |
+  f |
+  d2 fis |
+  g f |
+  g1 f f g g f f g |
+  % THE FUNKY PART
+  g1 f f g g f f g |
+  f1 g a bes a |
+  R1*4 |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  d, a' d, a' |
+  g d' g, d' |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  bes f' bes, f' |
+  bes, f' bes, f' |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  d, a' d, a' |
+  g d' g, d' |
+  ees,4 bes' ees, bes' |
+  f c' f, c' |
+  R1*2
   \repeat unfold 4 { ees4 bes' } |
   \repeat unfold 4 { bes, f' } |
   \repeat unfold 4 { ees bes' } |

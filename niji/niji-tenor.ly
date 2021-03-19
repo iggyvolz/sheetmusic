@@ -13,54 +13,98 @@ tenor = \relative b {
   c4. c8~ c c4. |
   d4. f8~ f bes,~ bes f'~ |
   f4 r r f,\glissando |
+  f'1~ |
+  f2. g4 |
+  f1~ |
+  f2 g4 bes, |
+  f'1~ |
+  f2. g4 |
+  f1~ |
+  f2 g4 bes, |
   \repeat unfold 2 {
-    f'1~ |
-    f2. g4 |
-    f1~ |
-    f2 g4 bes, |
-    f'1~ |
-    f2. g4 |
-    f1~ |
-    f2 g4 bes, |
-    \repeat unfold 2 {
-      g'8 ees ees4 ees ees |
-      ees8 f f4 f f |
-      f8 f f4 f f |
-      f8 g g4 g g |
-    }
-    \repeat unfold 2 {
-      f,8 c'4.~ c2 |
-      g8 d'4.~ d2 |
-    }
-    f,8 c'4.~ c2 |
-    g2 f |
-    ees4 bes' e, bes' |
-    c1~ |
-    \repeat unfold 5 c8 r r4 |
-    f1~ |
-    f2 g |
-    f fis |
-    g f |
-    bes,1 |
-    a4 a8 g~ g f c ees~ |
-    ees d4.~ d f8 |
-    bes c~ c d~ d bes4. |
-    f'1~ |
-    f2 g |
-    f fis |
-    g f |
-    bes,1 |
-    a4 a8 g~ g f c ees |
-    ees d~ d f r bes, d ees~ |
-    ees d4. f2 |
-    bes1 |
-    a4 a8 g~ g f c ees |
-    ees d4. f2 |
-    ees8 d4. r8 f'8~ f f |
+    g'8 ees ees4 ees ees |
+    ees8 f f4 f f |
+    f8 f f4 f f |
+    f8 g g4 g g |
   }
-  \repeat unfold 4 { g bes, ees bes } |
-  \repeat unfold 4 { f' bes, d bes } |
-  \repeat unfold 4 { g' bes, ees bes } |
+  \repeat unfold 2 {
+    f,8 c'4.~ c2 |
+    g8 d'4.~ d2 |
+  }
+  f,8 c'4.~ c2 |
+  g2 f |
+  ees4 bes' e, bes' |
+  c1~ |
+  \repeat unfold 5 c8 r r4 |
+  f1~ |
+  f2 g |
+  f fis |
+  g f |
+  bes,1 |
+  a4 a8 g~ g f c ees~ |
+  ees d4.~ d f8 |
+  bes c~ c d~ d bes4. |
+  f'1~ |
+  f2 g |
+  f fis |
+  g f |
+  bes,1 |
+  a4 a8 g~ g f c ees |
+  ees d~ d f r bes, d ees~ |
+  ees d4. f2 |
+  bes1 |
+  a4 a8 g~ g f c ees |
+  ees d4. f2 |
+  ees8 d4. r8 f'8~ f f |
+  f1~ |
+  f2. g4 |
+  f1~ |
+  f2 g4 bes, |
+  f'1~ |
+  f2. g4 |
+  f1~ |
+  f2 g4 bes, |
+  \repeat unfold 2 {
+    g'8 ees ees4 ees ees |
+    ees8 f f4 f f |
+    f8 f f4 f f |
+    f8 g g4 g g |
+  }
+  % THE FUNKY PART
+  \repeat unfold 2 {
+    g8 ees ees4 ees ees |
+    ees8 f f4 f f |
+    f8 f f4 f f |
+    f8 g g4 g g |
+  }
+  \repeat unfold 2 {
+    f,8 c'4.~ c2 |
+    g8 d'4.~ d2 |
+  }
+  f,8 c'4.~ c2 |
+  g2 f |
+  ees4 bes' e, bes' |
+  c1~ |
+  \repeat unfold 5 c8 r r4 |
+  f1~ |
+  f2 g |
+  f fis |
+  g f |
+  bes,1 |
+  a4 a8 g~ g f c ees~ |
+  ees d4.~ d f8 |
+  bes c~ c d~ d bes4. |
+  f'1~ |
+  f2 g |
+  f fis |
+  g f |
+  bes,1 |
+  a4 a8 g~ g f c ees |
+  ees d4. f2 |
+  ees8 d4. r2 |
+  \repeat unfold 4 { r8 bes' ees bes } |
+  \repeat unfold 4 { r bes d bes } |
+  \repeat unfold 4 { r bes ees bes } |
   f4 bes d f |
   bes2 f4 r8 ees~ |
   ees4 e8 bes~ bes e4. |
