@@ -1,5 +1,5 @@
 \version "2.18.2"
-tenor = \relative b {
+tenor = << \relative b {
   \clef "treble_8"
   \key bes \major
   \time 4/4
@@ -162,3 +162,55 @@ tenor = \relative b {
     b
   \bar "|."
 }
+
+\addlyrics {
+  % Intro
+  da da da da da da da da da da da da
+  da da da da da da da da da da a --
+  % Pre Verse 1
+  ah a -- ah dum dum ah a -- ah dum dum
+  % Verse 1
+  da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum
+  dum da dum da dum da dum da dum da da da da da da da da da da da dat
+
+  % Chorus
+  ah ah da da da da dum
+  dum da da da da da da da da da da da
+  ah ah da da da da dum
+  dum da da da da da da da da da da da
+  da da da
+  dum da da da da da da da da da da da da
+
+  % Pre Verse 2
+  ah a -- ah dum dum ah a -- ah dum dum
+  % Verse 2
+  da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum
+  dum da dum da dum da dum da dum da da da da da da da da da da da dat
+
+  % Chorus
+  ah ah da da da da dum
+  dum da da da da da da da da da da da
+  ah ah da da da da dum
+  dum da da da da da da da da da da
+
+  % Bridge
+  da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da
+  dum dum dum dum dum dum da 
+  da dum da dum da da da da da
+  da da da da da da da da da dum da da da
+  da da da da da da da
+  
+  % Verse 3
+  da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum
+  dum da dum da dum da dum da dum da da da da da da da da da da da da da da da dada da da da da da da da
+  
+  % Chorus
+  ah ah da da da da dum
+  dum da da da da da da da da da da da
+  ah ah da da da da dum
+  dum da da da da da da da da da da da da da da dum da da da da da da da da da da da da
+
+  % Ending
+  da da da da da da da da
+}
+>>

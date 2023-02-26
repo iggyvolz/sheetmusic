@@ -1,5 +1,5 @@
 \version "2.18.2"
-bass = \relative b, {
+bass = << \relative b, {
   \clef "bass"
   \key bes \major
   \time 4/4
@@ -132,3 +132,44 @@ bass = \relative b, {
   fis |
   \bar "|."
 }
+\addlyrics {
+  % Intro
+  dum da dum da dum da dum da dum da da da da da da
+  % Pre Verse 1
+  dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm 
+
+  % Pre Verse 2
+  dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dum dum dum dum dum dum dum
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm
+
+  
+  dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dum dum dum
+
+  da da da da da da da da da da da da da da da da
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm dm
+  dm dm dm dm dm 
+  dm dm dm dm dm 
+  dm dm dm dm dm 
+  dm dm dm dm dm 
+  dm dm dm dm dm
+
+  da da da da da da da da
+}
+>>

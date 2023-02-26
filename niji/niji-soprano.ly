@@ -1,5 +1,5 @@
 \version "2.18.2"
-soprano = \relative d'' {
+soprano = << \relative d'' {
   \clef "treble"
   \key bes \major
   \time 4/4
@@ -11,7 +11,7 @@ soprano = \relative d'' {
   g f |
   bes,1 |
   a4. g8~ g f~ f ees~ |
-  ees d4.~ d2 |
+  ees d4.~ d2~ |
   d2 r2 |
   ees'8 ees~ ees ees~ ees ees~ ees ees |
   c8 c~ c c~ c c~ c c |
@@ -33,8 +33,8 @@ soprano = \relative d'' {
   }
   a4 a8 a~ a r r4 |
   bes bes8 bes16 bes a4 a8 a16 a |
-  c4 bes8 a g g~ g f~ |
-  f g~ g a~ a bes~ bes bes |
+  c4 bes8 a~ a g~ g f~ |
+  f g~ g a~ a bes~ bes c~ |
   c4. r8 r2 |
   bes2 d |
   a8 f c' f,~ f2 |
@@ -84,8 +84,8 @@ soprano = \relative d'' {
   }
   a4 a8 a~ a r r4 |
   bes bes8 bes16 bes a4 a8 a16 a |
-  c4 bes8 a g g~ g f~ |
-  f g~ g a~ a bes~ bes bes |
+  c4 bes8 a~ a g~ g f~ |
+  f g~ g a~ a bes~ bes c~ |
   c4. r8 r2 |
   bes2 d |
   a8 f c' f,~ f2 |
@@ -165,4 +165,64 @@ soprano = \relative d'' {
   fis1~ |
   fis1
   \bar "|."
-}%
+}
+\addlyrics {
+  % Intro
+  da da da da da da da da da da da da
+  % Pre Verse 1
+  da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da
+  % Verse 1
+  dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dot da da da da da da dot da da da da da da dot da da da dot da da da dot da da
+  ri ko -- e -- te yu -- ke -- ru ka -- na
+
+  % Chorus
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da da da da
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da
+  da da da da da da
+  da da dum da
+  da dum da da
+  da da da da da da da
+  
+  % Pre Verse 2
+  da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da
+  % Verse 2
+  dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dot da da da da da da dot da da da da da da dot da da da dot da da da dot da da
+  re yo -- ri ho -- shi -- ga -- a -- tte -- ta
+
+  % Chorus
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da da da da
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da da da da da
+
+  % Bridge
+  da da da da da da dum dum dum dum dum dum da 
+  da dum da dum da da da da da
+  da da da da da da da da dot da da da
+  
+  % Verse 3
+  dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum dum
+  dot da da da da dum dum da dum dum da dum dum da dum dum da da
+  da da da da da da da da da da da da da da da da 
+  
+  % Chorus
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da da da da
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da da da da da da
+  da da dum da da dum da da da da da da da da da
+
+  % Ending
+  da da da da da da da da da da da da
+} >>
