@@ -54,3 +54,55 @@ solo = \relative b' {
     c4 ees8 aes g f |
     ees4.
 }
+
+lyrics = \lyricmode {
+  You and I were born
+  right here in the same world.
+  For this one brief life,
+  we're beneath the same sky.
+  
+  The great flow of time.
+  The wide expanse of space.
+  We are lucky enough
+  to share this lifetime we get.
+  
+  We can gain more if we give.
+  By taking, we only lose.
+  
+  Let us make this a new age
+  where we show our gratitude.
+  
+  There's a fragile bud of hope,
+  blooming in each of our hearts.
+  Don't you take that away.
+  Our dreams are meant to be shared.
+  
+  Let it grow. Let it live.
+  Let us see what it will bring.
+  When we share in our love,
+  we make a beautiful world.
+  
+  Search it out, and find the way:
+  the point where we can all meet.
+  The point where we're all the same.
+  There it lies: the future we seek.
+  
+  Start from there, and then we'll forge
+  a world where all can be free.
+  Free to dream, and free to smile.
+  Free to be who we will be.
+  
+  Let's make sure we create...
+  
+  A world of our hopes and dreams.
+  
+  In our brief lives,
+  we've managed to meet.
+  Treasure this gift,
+  this precious time that we have.
+  
+  In our brief lives,
+  we've managed to meet.
+  Treasure this gift,
+  this precious time that we have. 
+}

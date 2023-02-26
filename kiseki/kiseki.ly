@@ -70,6 +70,7 @@
       %   shortInstrumentName = #"VP"
       % } \vocalpercussion
     >>
+    
     \midi { }
   }
 }
