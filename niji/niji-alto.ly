@@ -1,5 +1,5 @@
 \version "2.18.2"
-alto = \relative b' {
+alto = << \relative b' {
   \override Score.BarNumber.break-visibility = ##(#t #t #t)
   \clef "treble"
   \key bes \major
@@ -167,3 +167,66 @@ alto = \relative b' {
     dis |
   \bar "|."
 }
+\addlyrics {
+  % Intro
+  da da da da da da da da da da da da
+  da da da da da da da da da da da da da da da
+  % Pre Verse 1
+  da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da
+  % Verse 1
+  da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum
+  dum da dum da dum da dum da dum da dum da dum da dum da dum da dum da da da da da da da da da da da da da da da da da da da dat
+
+  % Chorus
+  da da da
+  da da da da da da da dum da
+  da da da da da da da da da da da
+  da da da
+  da da da da da da da dum da
+  da da da da da da da
+  da da da da da
+  da da dum da
+  da dum da da
+  da da da da da da da da da
+
+  % Pre Verse 2
+  pvtwoda da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da
+  % Verse 2
+  da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum
+  dum da dum da dum da dum da dum da dum da dum da dum da dum da dum da da da da da da da da da da da da da da da da da da da dat
+
+  % Chorus
+  da da da
+  da da da da da da da dum da
+  da da da da da da da da da da
+  da da da da da da
+  da da da da da da da dum da
+  da da da da da da da da da da da
+
+  % Bridge
+  da da da da da da
+  dum dum dum dum dum dum da 
+  da dum da dum da da da da da
+  da da da da da da da da da dum da da da da da da da da da da da
+  da da da da da da da
+  
+  % Verse 3
+  da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum da da dum dum dum
+  dum da dum da da da dum da dum dum dum dum da da dum dum da da da da da da da da da da da da da da da da da da da da da
+  
+  % Chorus
+  da da da
+  da da da da da da da dum da
+  da da da da da da da da da da da
+  da da da
+  da da da da da da da dum da
+  da da da da da da da
+  da da da da da
+  da da dum da
+  da dum da da
+  da da da da da da da da da
+
+  % Ending
+  da da da da da da da da
+}
+>>
